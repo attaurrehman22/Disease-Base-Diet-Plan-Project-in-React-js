@@ -1,0 +1,168 @@
+
+.app__navbar{
+    display: flex;
+    /* margin: 0.1rem 0.1rem; */
+    padding: 0.1rem 0.1rem;
+    height: 5rem;
+    background-color: rgb(34, 33, 33);
+    
+}
+.app__navbar-logo{
+    /* width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 50px; */
+
+
+
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-left: 80px;
+     background-image: 
+  url(
+"F:\Disease Base Diet Plan\Source Code\d_b_d_p\src\Images\images (2).jpg");
+background-size: cover;
+/* border-radius: 80%;
+   height:100%;
+  width: 21%;
+   */
+  
+  /* width: 100%;
+  height: auto; */
+  
+}
+.app__navbar-left{
+    /* border: 1px solid; */
+    display: flex;
+    flex: 1;
+
+    justify-content: left;
+    align-items: center;
+}
+.app__navbar ul{
+    display: flex;
+    gap: 0.5rem;
+    list-style: none;
+    
+}
+.app__navbar li{
+    float: left;
+    
+}
+.app__navbar a{
+    text-decoration: none;
+    color: white;
+    margin: 1rem;
+    /* text-align-last: center;
+    text-align: center; */
+    /* align-items: center;
+    justify-content: center;
+    align-self: center; */
+}
+.app__navbar-mid{
+    flex: 1;
+    /* border: 1px solid; */
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    
+}
+.app__navbar-right{
+    flex: 1;
+    /* border: 1px solid; */
+    justify-content: center;
+    align-items: center;
+}
+.app__navbar-right a{
+    justify-self: center;
+    align-self: center;
+    margin-top: 10px;
+    text-align: center;
+}
+.text-a{
+    /* background-color: aliceblue; */
+    height: 45%;
+    float:right;
+    border:white;
+
+
+   
+}
+.text-b{
+    /* background-color: aliceblue; */
+    height: 100%;
+    display: block;
+
+
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  /* color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none; */
+  
+}
+  
+
+
+input{
+    background-color: azure;
+    border-radius: 10px;
+    
+    
+}
+button{
+    background-color: blue;
+    color: black;
+
+}
+
+
+/* //navbarDoctor Code */
+/* nav {
+    background-color: #333;
+    height: 50px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+  /* image for navbarDoctor */
+  /* .image-container {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+  }
+    */
